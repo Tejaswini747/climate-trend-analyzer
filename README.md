@@ -138,33 +138,7 @@ Phase 8 — GitHub Upload
 README
 screenshots
 code upload
-E. FOLDER STRUCTURE
-Climate-Trend-Analyzer/
-│
-├── data/
-│   └── climate_data.csv
-│
-├── notebooks/
-│   └── climate_analysis.ipynb
-│
-├── src/
-│   ├── data_cleaning.py
-│   ├── eda.py
-│   ├── trend_analysis.py
-│   ├── anomaly_detection.py
-│
-├── outputs/
-│   ├── graphs/
-│   ├── reports/
-│
-├── images/
-│
-├── app/
-│   └── streamlit_app.py
-│
-├── requirements.txt
-├── README.md
-└── main.py
+
 F. INSTALLATION STEPS
 Windows
 pip install pandas numpy matplotlib seaborn scikit-learn plotly statsmodels
@@ -289,27 +263,30 @@ streamlit run app/app.py
 Open in browser:
 
 http://localhost:8501
-## 📊 Project Screenshots
 
-### 🌍 Dashboard Overview
-![dashboard](images/dashboard_overview.png)
 
----
+📈 Results & Insights
+Identified long-term temperature trends
+Detected abnormal climate variations
+Visualized seasonal patterns
+Predicted future temperature changes
+🧪 Simulation Approach
 
-### 📈 Temperature Trend
-![Temperature](images/temperature_trend.png)
+Since real-time climate systems are not accessible:
 
----
-
-### ⚠️ Anomaly Detection
-![Anomaly](images/anomaly_detection.png)
-
----
-
-### 🔥 Correlation Heatmap
-![Heatmap](images/correlation_heatma.png)
-
----
-
-### 💧 Humidity Trend
-![Humidity](images/humidity_trend.png)
+Used public dataset (CSV)
+Simulated time-series climate behavior
+Applied statistical & ML techniques
+Generated realistic outputs
+📚 Learning Outcomes
+Time Series Analysis
+Data Cleaning & Preprocessing
+Data Visualization
+Machine Learning Basics
+Dashboard Development
+🔮 Future Improvements
+ARIMA / Prophet forecasting
+Multi-city comparison
+Real-time API integration
+Deployment on cloud (Streamlit Cloud)
+Geospatial climate mapping
