@@ -1,4 +1,6 @@
 🌍 CLIMATE TREND ANALYZER
+
+
 A. PROJECT EXPLANATION
 🌱 What is a Climate Trend Analyzer?
 👉 Simple Language
