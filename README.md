@@ -57,6 +57,8 @@ Visualization
 Insights & Reporting
 B. PROJECT ARCHITECTURE
 🧠 System Flow
+
+
         ┌──────────────┐
         │ Climate Data │
         └──────┬───────┘
@@ -80,7 +82,9 @@ B. PROJECT ARCHITECTURE
      ┌──────────────────┐
      │ Visualization    │
      └──────────────────┘
-     🧩 Modules
+     
+     
+🧩 Modules
 data loader
 preprocessing module
 analysis engine
