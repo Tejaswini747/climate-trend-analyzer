@@ -243,3 +243,73 @@ Run analysis
 Step 6
 
 Generate graphs
+
+## 🚀 Features
+- 📊 Climate Data Analysis
+- 📈 Temperature & Humidity Trends
+- 🔥 Correlation Analysis
+- ⚠️ Anomaly Detection
+- 🔮 Future Temperature Forecasting
+- 🌐 Interactive Streamlit Dashboard
+
+## 🛠 Tech Stack
+- Python
+- Pandas, NumPy
+- Matplotlib, Seaborn, Plotly
+- Scikit-learn
+- Streamlit
+## 📂 Folder Structure
+
+
+Climate-Trend-Analyzer/
+│
+├── app/ # Streamlit dashboard
+├── data/ # Raw dataset
+├── src/ # Data processing scripts
+├── outputs/ # Processed data & results
+├── images/ # Screenshots for README
+├── notebooks/ # Jupyter analysis
+├── requirements.txt # Dependencies
+├── .gitignore
+└── README.md
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/Tejaswini747/climate-trend-analyzer.git
+cd climate-trend-analyzer
+
+python -m venv venv
+venv\Scripts\activate
+
+pip install -r requirements.txt
+streamlit run app/app.py
+Open in browser:
+
+http://localhost:8501
+## 📊 Project Screenshots
+
+### 🌍 Dashboard Overview
+![dashboard](images/dashboard_overview.png)
+
+---
+
+### 📈 Temperature Trend
+![Temperature](images/temperature_trend.png)
+
+---
+
+### ⚠️ Anomaly Detection
+![Anomaly](images/anomaly_detection.png)
+
+---
+
+### 🔥 Correlation Heatmap
+![Heatmap](images/correlation_heatma.png)
+
+---
+
+### 💧 Humidity Trend
+![Humidity](images/humidity_trend.png)
